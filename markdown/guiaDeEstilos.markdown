@@ -17,5 +17,9 @@
 - Logo : presentacion de distintos logos, letras, etc
 - colores: voy a emplear los colores rojo y blanco ya que son los que mas se adaptan al tema navideño,
 - fuente/s: las fuentes que voy a emplear son las que se adapten con el estilo de la pagina  y que mas se ajusten a mis canones de estilo. 
-
+- ficheros css: 
+    - commons (ex: root para colores, tamaños)
+    - header
+    - footer
+    - ...
  

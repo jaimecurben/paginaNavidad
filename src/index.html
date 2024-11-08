@@ -4,11 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calasanz Navidad</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    
+    <link rel="stylesheet" href="../css/commons.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+   
 </head>
 <body>
 
-    <header></header>
+    <header class="header">
+        <div class="header__text">
+            <h1 class="header__title">Escuela Calasanz Salamanca</h1>
+            <p class="header__subtitle">Educación con valores cristianos y excelencia académica</p>
+        </div>
+        <div class="header__logo-container">
+            <img  class="header__logo" src="../img/LOGO_ESCOLAPIOS.png" alt="Escuela Calasanz Salamanca">
+        </div>
+    </header>
+    
+    
+        <audio id="audio" autoplay  loop>
+            <source src="../audio/feliz-navidad-letra--lyrics.mp3" type="audio/mpeg">
+            </audio>
+
+    <nav class="nav">
+        <div>
+        <a id="nosotros_link" class="nav__link" href="#inicio">Inicio</a>
+        </div>
+        <div class="dropdown">
+            <a class="nav__link dropdown-toggle" href="#nosotros">Nosotros</a>
+            <div class="dropdown-content">
+                <div class="dropdown-submenu">
+                    <a href="#">Cursos Educativos</a>
+                    <div class="dropdown-submenu-content">
+                        <a href="#">Guardería</a>
+                        <a href="#">Infantil</a>
+                        <a href="#">Secundaria</a>
+                        <a href="#">Bachillerato</a>
+                        <a href="#">FP</a>
+                    </div>
+                </div>
+                <a href="https://www.calasanzsalamanca.es" target="_blank">Página Oficial</a>
+                <a href="https://www.calasanzsalamanca.es/actividades-extraescolares/" target="_blank">Extraescolares</a>
+            </div>
+        </div>
+        <div>
+        <a class="nav__link" href="#noticias">Noticias</a>
+        </div>
+        <div>
+        <a class="nav__link" href="../src/form.html">Contacto</a>
+        </div>
+    </nav>
+
+    <div class="container" id="inicio">
+        <h2 class="container__title">Bienvenidos a Calasanz Salamanca en Época navideña</h2>
+
+    </div>
+<hr>
+    <div class="container" id="noticias">
+        <h1 id="noticiastitle">NOTICIAS</h1>
+        <h id="noticiaContent">Casi 200 nacimientos participan en el VI Concurso de Belenes de la Región de Murcia</h2>
+        <p id="pNoticias">Los premiados este año son los de la parroquia La Purísima del Llano de Molina, la Asociación Belenista de Lorca, el centro educativo Monteagudo, el Ayuntamiento de Caravaca de la Cruz y el particular Francisco Marín Juliá</p>
+        <img id="imgNoticia" src="../img/d4f54b4e-6fe3-400c-b0ec-b9b71d30a785_16-9-discover-aspect-ratio_default_0.webp" alt="">
+    </div>
+
+    <hr>
+    <div class="container" id="contacto">
+        <div class="divs" id="calendario">
+            <iframe id="calendario" src="https://calendar.google.com/calendar/embed?src=es.spain%23holiday%40group.v.calendar.google.com&ctz=UTC" style="border: 0" width="500" height="350" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="divs" id="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1506.4844615027946!2d-5.660694837570171!3d40.96025963261625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3f266cd124909d%3A0x5cd302f38c14e616!2sColegio%20Calasanz%20de%20Salamanca!5e0!3m2!1ses!2ses!4v1731052764877!5m2!1ses!2ses" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="divs" id="fotos">
+            <div class="slider-container">  
+                <img
+                  class="slider-item"
+                  src="../img/Calasanz-Navidad-5.jpg"
+                />
+                <img
+                  class="slider-item"
+                  src="../img/AcampadaNavidad2012112.jpg"
+                />
+                <img
+                  class="slider-item"
+                  src="../img/Calasanz-Salamanca-Navidad-2020-001.jpg"
+                />
+                <img
+                  class="slider-item"
+                  src="../img/Festival-Navidad-Primaria-2022-8.jpg"
+                />
+              </div>  
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Escuela Calasanz Salamanca. Todos los derechos reservados.</p>
+    </footer>
 
     
 </body>
